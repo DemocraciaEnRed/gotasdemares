@@ -1,0 +1,153 @@
+/* 
+Colores
+celeste: rgb(163, 206, 196)
+purpura: rgb(119, 90, 125)
+verde: rgb(73, 113, 110)
+verde claro: rgb(127,183,145)
+rosa: rgb(214,188,206)
+amarillo: rgb(236,231,110)
+ */
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, strong, .button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar,
+.navbar-menu {
+    background-color: rgb(127,183,145);
+}
+
+.navbar-item {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align:right;
+}
+
+a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background-color: white;
+    color: rgb(73, 113, 110);
+}
+
+.navbar-burger {
+    color: white;
+}
+
+.is-justify-content-center {
+    display: flex;
+}
+
+.is-four-fifths-desktop {
+    margin: auto;
+}
+
+strong, .subtitle strong {
+    color: rgb(73, 113, 110);
+}
+
+.button {
+    background-color: rgb(73, 113, 110);
+    color: white;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(127,183,145);
+}
+
+.box {
+    padding: 2rem;
+    -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box:hover {
+    box-shadow: rgba(50,50,93,0.25) 0 30px 60px -12px;
+    transform: translateY(-5px);
+    -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hero .image {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+/* agenda */
+ .agenda h3.title {
+    color: rgb(73, 113, 110);
+}
+
+h2.title {
+    color: rgb(119, 90, 125);
+}
+
+.agenda h3.title .hour {
+    display: inline-block;
+    color: white;
+    background-color:rgb(163, 206, 196);
+    padding: 4px;
+}
+
+.agenda li:nth-child(odd) span {
+    display: inline-block;
+    padding: 0 2px;
+    background-color: rgb(236,231,110)
+}
+
+.agenda li:nth-child(even) span {
+    display: inline-block;
+    padding: 0 2px;
+    background-color: rgb(214,188,206)
+}
+
+/* footer */
+.footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.footer .subtitle {
+    color: rgb(73, 113, 110);
+}
+
+.footer a {
+    display: inline-block
+}
+
+.footer .image {
+    height: 60px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer .image.image-ril {
+   height: 140px;
+}
+
+.footer .image.image-der {
+    height: 50px;
+ }
+
+.footer li {
+    display: inline;
+    margin: 20px 10px;
+}
+
+.footer .copyright {
+    background-color:rgb(236,231,110);
+}
